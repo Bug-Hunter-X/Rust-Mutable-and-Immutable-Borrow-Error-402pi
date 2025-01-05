@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Rust: attempting to use a mutable reference (&mut) to a value while an immutable reference (&) also exists. The `bug.rs` file contains the erroneous code, which will result in a compile-time error. The `bugSolution.rs` file provides a corrected version that avoids the error.
